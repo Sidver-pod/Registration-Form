@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/Users/sidver/Documents/JS/Registration Form/public/css/form.css">
+    <!-- <meta name="local and cloud storage" content="DOM AXIOS"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="form-control">
+      <form class="_form" onsubmit="event.preventDefault() & addNewRegistrant()">
+        <div>
+          <label for="username">Name:</label>
+          <br>
+          <input type="text" id="username" name="username" size="30" required>
+          <br><br>
+          <label for="email">Email:</label>
+          <br>
+          <input type="email" id="email" name="email" size="30" required>
+          <br><br>
+        </div>
+        <div>
+          <input type="submit" class="but" value="Submit">
+        </div>
+      </form>
+    </div>
+    <ul>
+      <!--List Elements get created here!-->
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.2/axios.min.js"></script>
+    <script src="/Users/sidver/Documents/JS/Registration Form/public/js/form.js"></script>
+  </body>
+</html>
