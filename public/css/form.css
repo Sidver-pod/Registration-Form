@@ -1,0 +1,107 @@
+.form-control{
+  margin: 5rem 35rem;
+}
+
+._form{
+  display: block;
+  margin: 5px;
+}
+
+#username, #email{
+  border: 1px solid #a1a1a1;
+  font: inherit;
+  border-radius: 2px;
+}
+
+.but{
+  color: white;
+  padding: 0.35rem 1rem;
+  margin: 5px 2px;
+  background-color: rgba(41, 41, 41, 0.904);
+  border: 1px solid rgba(41, 41, 41, 0.904);
+  border-color: rgba(41, 41, 41, 0.904);
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: small;
+}
+
+.but:hover {
+  background-color: black;
+  border: 1px solid black;
+  border-color: black;
+  color: white;
+}
+
+ul {
+  display: inline-block;
+  position: static;
+  margin: 2rem 31rem;
+}
+
+li {
+  list-style-type: circle;
+  width: max-content;
+  cursor: pointer;
+}
+
+li:hover {
+  list-style: disc;
+}
+
+li form {
+  border-bottom: 2px solid blanchedalmond;
+  border-bottom-style: dashed;
+  padding-bottom: 10px;
+  margin-block-end: 1em;
+}
+
+li form:hover {
+  border: 1px solid blanchedalmond;
+  background-color: blanchedalmond;
+  padding: 12px 10px 15px 5px;
+  border-radius: 5px;
+  font-size: x-large;
+  box-shadow: rgba(52, 55, 65, 0.12) 0px 15px 15px 0px, rgba(52, 55, 65, 0.17) 0px 4px 8px 0px;
+}
+
+li form:hover span {
+  background-color: blanchedalmond;
+  border-color: blanchedalmond;
+  border-bottom-color: black;
+}
+
+li form:hover button {
+  font-size: large;
+  background-color: blanchedalmond;
+}
+
+.username, .email {
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  color: black;
+  background: white;
+  border: solid 1px black;
+  padding: 0.1rem 0.29rem;
+  margin-left: 0.25rem;
+}
+
+.del{
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  color: rgb(255, 71, 86);;
+  background: white;
+  border: solid 1px rgb(255, 71, 86);
+  padding: 0.19rem 0.29rem;
+  margin-left: 0.25rem;
+  font-size: small;
+}
+
+.del:hover{
+  color: blanchedalmond;
+  background: rgb(255, 71, 86);
+}
